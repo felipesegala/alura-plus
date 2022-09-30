@@ -86,3 +86,13 @@ body {
 .descricao__texto {
     color: var(--cinza-secundario);
 }
+
+.secundario__botao {
+    display: inline-block; /*faz com q ocupe somente seu espaço*/
+    margin-top: 1em;
+
+}
+
+.container__descricao {
+    padding: 2em;
+}
