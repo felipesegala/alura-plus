@@ -37,15 +37,31 @@ body {
     border-radius: 5px;
     color: var(--branco-principal);
     display: block;
+    margin-bottom: 1em;
     padding: 1em;
+    text-decoration: none;   
+    text-align: center; 
 }
 
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
-    margin-top: 10px;
 }
 
 .container__aviso {
-    font-size: .6em;
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }
