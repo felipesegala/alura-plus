@@ -1,0 +1,51 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+
+    --font-principal: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url(imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain; /*pegará todo o container, no caso aqui (section)*/
+}
+
+.container {
+    height: 100vh;
+    display: grid; /*separa os elementos por linha por padrão*/
+    grid-template-columns: 50% 50%; /*defino o espaço ocupado, e direciona para coluna*/
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    color: var(--branco-principal);
+    display: block;
+    padding: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    margin-top: 10px;
+}
+
+.container__aviso {
+    font-size: .6em;
+}
