@@ -18,6 +18,7 @@ body {
     font-family: var(--font-principal);
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 70px;
 }
 
 .principal {
@@ -116,4 +117,35 @@ body {
 .lista__item {
     color: var(--branco-principal);
     font-size: 32px;
+    margin-bottom: 100px;
+}
+
+.rodape {
+    position: relative;
+    font-family: var(--font-principal)
+}
+
+.rodape__logo{
+    position: absolute;
+    left: 600px;
+    top: -70px;
+}
+
+.rodape__lista {
+    display: flex;
+    list-style-type: none;
+    margin: 20px 100px 20px 100px;
+    justify-content: space-between;
+}
+
+.lista__link {
+    font-weight: 400;
+    align-items: center;
+}
+
+.rodape__texto {
+    text-align: center;
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    
 }
