@@ -96,3 +96,24 @@ body {
 .container__descricao {
     padding: 2em;
 }
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex; /* na lista para que fique uma do lado da outra*/
+    justify-content: center; /*centralizado ao centro*/
+    list-style-type: none; /*retira a marcação de lista */
+    margin: 5em 0;
+}
+
+.dispositivos__titulo {
+    color: var(--branco-principal);
+    font-size: 48px;
+}
+
+.lista__item {
+    color: var(--branco-principal);
+    font-size: 32px;
+}
